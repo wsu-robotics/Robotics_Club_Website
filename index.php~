@@ -1,0 +1,51 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+		<table>
+			<tr>
+				<td>
+				
+				</td>
+			</tr>
+			<tr>                                               │                                                                           
+                                <td>                                       │                                                                           
+                                                                           │                                                                           
+                                </td>                                      │                                                                           
+                        </tr>
+			<tr>                                               │                                                                           
+                                <td>                                       │                                                                           
+                                                                           │                                                                           
+                                </td>                                      │                                                                           
+                        </tr>
+			<tr>                                               │                                                                           
+                                <td>                                       │                                                                           
+                                                                           │                                                                           
+                                </td>                                      │                                                                           
+                        </tr>
+			<tr>                                               │                                                                           
+                                <td>                                       │                                                                           
+                                                                           │                                                                           
+                                </td>                                      │                                                                           
+                        </tr>
+			<tr>                                               │                                                                           
+                                <td>                                       │                                                                           
+                                                                           │                                                                           
+                                </td>                                      │                                                                           
+                        </tr>
+			<tr>                                               │                                                                           
+                                <td>                                       │                                                                           
+                                                                           │                                                                           
+                                </td>                                      │                                                                           
+                        </tr>
+		</table>
+		Header
+		Picture
+		Introduction
+		Schedule
+		About the club
+		Projects
+		Contact
+	</body>
+</html>
