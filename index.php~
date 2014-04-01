@@ -1,51 +1,14 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-	<body>
-		<table>
-			<tr>
-				<td>
-				
-				</td>
-			</tr>
-			<tr>                                               │                                                                           
-                                <td>                                       │                                                                           
-                                                                           │                                                                           
-                                </td>                                      │                                                                           
-                        </tr>
-			<tr>                                               │                                                                           
-                                <td>                                       │                                                                           
-                                                                           │                                                                           
-                                </td>                                      │                                                                           
-                        </tr>
-			<tr>                                               │                                                                           
-                                <td>                                       │                                                                           
-                                                                           │                                                                           
-                                </td>                                      │                                                                           
-                        </tr>
-			<tr>                                               │                                                                           
-                                <td>                                       │                                                                           
-                                                                           │                                                                           
-                                </td>                                      │                                                                           
-                        </tr>
-			<tr>                                               │                                                                           
-                                <td>                                       │                                                                           
-                                                                           │                                                                           
-                                </td>                                      │                                                                           
-                        </tr>
-			<tr>                                               │                                                                           
-                                <td>                                       │                                                                           
-                                                                           │                                                                           
-                                </td>                                      │                                                                           
+        <body>
+                <table id="main_section">
+                        <tr>
+                                <td id="header">
+					Robotics Club @ WSU
+                                </td>
                         </tr>
 		</table>
-		Header
-		Picture
-		Introduction
-		Schedule
-		About the club
-		Projects
-		Contact
 	</body>
 </html>

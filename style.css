@@ -1,80 +1,71 @@
-body {
-	background-color:#680000;
+#name {
+	float:left;
+	text-transform:uppercase;
+	padding-left:100px;
+}
+
+#slogan {
+	float:right;
+	text-transform:uppercase;
+	padding-right:100px;
 }
 
 #main_section {
-	width:800px;
+	width:100%;
 	margin: 0px auto;	
 }
 
 
 #header{
-	background-color:#680000; 
-	color:white;
+	background-color:#A80000;
+	color:black
 	font-size:20px;
 }
 
-#home {
-	background-color:white;
-}
-#picture {
-	height:300px;
-	background-image:url('front.jpg');
-	background-size: 100%;
-	background-position:center;
-	border-style:solid;
-	color:black;
-	border-width:1px; 
+body {
+	margin-top:20px;
+	background-color:black;
+	//background-image:url("front.jpg");
+	//background-size:960px 720px;
+	background-repeat:no-repeat;
+	background-image: url(front.jpg);
+  background-image: -webkit-linear-gradient(left, 
+    rgba(0,0,0,1.0) 4%, 
+    rgba(0,0,0,0) 20%,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,0.9) 100%
+  ),
+  url(front.jpg);
+	
 }
 
-#float {
-	background-color:white;
+#content, #main {
+	background-color:#C0C0C0;
 	opacity:0.7;
 	filter:alpha(opacity=40); /* For IE8 and earlier */
-	width:250px;
-	height:150px;
-	float:right;
+	width:260px;
+	height:260px;
+	margin-bottom:30px;
 	border-radius:10px;
-	padding:10px;
-
 }
 
-#schedule {
-	background-color:white;
+.words {
+	font-size:14px;
+	padding-left:15px;
+	padding-right:15px;
 }
 
-
-ul
-{
-list-style-type:none;
-margin:0;
-padding:0;
-overflow:hidden;
-}
-li
-{
-float:left;
-padding-right:0px;
-}
-.nav
-{
-display:block;
-width:190px;
-font-size:.9em;
-color:black;
-background-color:white;
-text-align:center;
-padding:4px;
-text-decoration:none;
-text-transform:uppercase;
-}
-.nav:hover,.nav:active
-{
-background-color:#383838 ;
+#content2 {
+	
 }
 
-a {
-	text-decoration:none;
-	color:black;
-	width:200px;
+.panel {
+	background-color:#800000;
+	opacity:0.7;
+	filter:alpha(opacity=40);
+	width:250px;
+	height:250px;
+	margin-top:10px;
+	margin-left:50%;	
 }
+
