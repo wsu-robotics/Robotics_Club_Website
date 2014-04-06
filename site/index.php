@@ -1,6 +1,7 @@
 <html>
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="jquery.flip.js"></script>
 <script>
 /*
 function change_visibility(id, id2, id3) {
@@ -22,11 +23,41 @@ function go_home(id, id2, id3){
 */
 
 $(document).ready(function(){
-  $("body").click(
+$("body").flip({
+	direction:'tb'
+})
+    $("#home_btn").click(
 	function(){
-   		 $(this).hide();
+   		 $("#about").hide();
+		 $("#projects").hide();
+		 $("#tutorials").hide();
  	}
    );
+  $("#about_btn").click(function(){
+	$("#about").show();
+        }
+   );
+  $("#about").click(function(){
+	$(this).css("background-color","black");
+	$(this).css("height","4000");
+  });
+  $("#projects_btn").click(
+        function(){
+                 $("#about").hide();
+                 $("#projects").show();
+                 $("#tutorials").hide(); 
+        }
+   );
+   $("#tutorials_btn").click(
+        function(){
+                 $("#about").hide();
+                 $("#projects").hide();
+                 $("#tutorials").show(); 
+        }
+   );
+
+
+
 });
 
 </script>
@@ -41,10 +72,10 @@ $(document).ready(function(){
 					</div>
 					<div style="height:200px;">
 						<ul>
-							<li><button onclick="go_home('about', 'tutorials', 'projects')"> Home </button></li>
-							<li><button onclick="change_visibility('about', 'tutorials', 'projects')"> About </button></li>
-							<li><button onclick="change_visibility('projects', 'tutorials', 'about')"> Projects </button></li>
-							<li><button onclick="change_visibility('tutorials', 'projects', 'about')"> Tutorials </button></li>
+							<li><button id="home_btn"> Home </button></li>
+							<li><button id="about_btn"> About </button></li>
+							<li><button id="projects_btn"> Projects </button></li>
+							<li><button id="tutorials_btn"> Tutorials </button></li>
 						</ul>
 					</div>
 					<div style="height:200px;">
